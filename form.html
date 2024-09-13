@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h2>personal information</h2>
+    <form action="/action_page.php" target="_blank">
+        <label for="fname">first name : </label>
+        <input type="text" id="fname"><br><br>
+        <label for="lname">last name : </label>
+        <input type="text" id="lname"><br><br>
+        <label for="gender">gender : </label>
+        <label for="male" id="male">male</label>
+        <input type="radio" id="male">
+        <label for="female" id="female">female</label>
+        <input type="radio" id="female">
+        <label for="other" id="other">other</label>
+        <input type="radio" id="other"><br><br>
+        <label for="dob">date of birth : </label>
+        <input type="date" id="dob"><br><br>
+        <label for="address" id="add">address : </label>
+        <textarea name="address" id="add" rows="4" cols="20"></textarea><br><br>
+        <label for="hobby">hobby : </label>
+        <label for="hobby">sports</label>
+        <input type="checkbox" id="sports">
+        <label for="hobby">dance</label>
+        <input type="checkbox" id="dance">
+        <label for="hobby">singing</label>
+        <input type="checkbox" id="singing"><br><br>
+
+        <fieldset>
+        <legend>Other details</legend>
+        <label for="E-mail">E-mail : </label>
+        <input type="email"><br><br>
+        <label for="num">mobile num : </label>
+        <input type="tel"><br><br>
+    </fieldset><br>
+        <button type="button">reset</button>
+        <input type="submit" id="submit"><br><br>
+    </form>
+</body>
+</html>
